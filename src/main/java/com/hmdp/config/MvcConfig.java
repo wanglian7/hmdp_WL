@@ -15,6 +15,5 @@ public class MvcConfig implements WebMvcConfigurer {
                 .excludePathPatterns("/user/login",
                         "/user/code","/blog/hot","/shop/**","/shop-type/**","/upload/**","/voucher/**");
         WebMvcConfigurer.super.addInterceptors(registry);
-aaa
     }
 }
